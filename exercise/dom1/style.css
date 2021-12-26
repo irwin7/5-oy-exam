@@ -1,0 +1,45 @@
+*{
+  box-sizing: border-box;
+}
+.cards{
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: relative;
+  top: 400px;
+}
+
+.card{
+  width: 200px;
+  height: 120px;
+  background-color: aqua;
+  margin-right: 20px;
+}
+
+.red{
+  background-color: red;
+}
+.aqua{
+  background-color: aqua;
+}
+.yellow{
+  background-color: greenyellow;
+}
+.blue{
+  background-color: blue;
+}
+.pink{
+  background-color: pink;
+}
+
+.active{
+  box-shadow: 0px 0px 20px 11px #fff;
+}
+
+
+.show{
+  display: flex;
+}
